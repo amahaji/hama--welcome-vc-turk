@@ -1,0 +1,40 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "banbot.js",
+  "scripts": {
+    "start": "node banbot.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "express": "^4.16.4",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "jimp": "^0.6.4",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "opusscript": "^0.0.7",
+    "request": "^2.88.2",
+    "snekfetch": "^4.0.4",
+    "superagent": "^5.1.0",
+    "ytdl-core": "^0.29.5"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "http://www.discordbotkodlari.online"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
